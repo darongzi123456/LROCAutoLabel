@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		998C5C9EAA108B4D85030F87 /* libPods-LROCLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAFF4B3BCDF9A052C401917 /* libPods-LROCLabel.a */; };
+		A03A21AC9E5C4DB5FD6B3FBF /* libPods-LROCLabelUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E3F70AB0CFBC8DB0595F13 /* libPods-LROCLabelUITests.a */; };
 		AAF45DF821D0D12D00E43D83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF45DF721D0D12D00E43D83 /* AppDelegate.m */; };
 		AAF45DFB21D0D12D00E43D83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF45DFA21D0D12D00E43D83 /* ViewController.m */; };
 		AAF45DFE21D0D12D00E43D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF45DFC21D0D12D00E43D83 /* Main.storyboard */; };
@@ -15,6 +17,10 @@
 		AAF45E0621D0D12D00E43D83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF45E0521D0D12D00E43D83 /* main.m */; };
 		AAF45E1021D0D12D00E43D83 /* LROCLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF45E0F21D0D12D00E43D83 /* LROCLabelTests.m */; };
 		AAF45E1B21D0D12D00E43D83 /* LROCLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF45E1A21D0D12D00E43D83 /* LROCLabelUITests.m */; };
+		AAF45E2B21D0D22600E43D83 /* LRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF45E2A21D0D22600E43D83 /* LRTableViewCell.m */; };
+		AAF45E2F21D0F17200E43D83 /* LRTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF45E2E21D0F17200E43D83 /* LRTableModel.m */; };
+		AAF45E3221D0F5CB00E43D83 /* LRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF45E3121D0F5CB00E43D83 /* LRTableViewController.m */; };
+		F2C205B91D0A2CB2C6E249FA /* libPods-LROCLabelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1401FE67F99EEA36E7904C0 /* libPods-LROCLabelTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DAFF4B3BCDF9A052C401917 /* libPods-LROCLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LROCLabel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B88A357B18DFBB6398CE67 /* Pods-LROCLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LROCLabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LROCLabelTests/Pods-LROCLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		431EA79C4F507401628F4FE9 /* Pods-LROCLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LROCLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-LROCLabel/Pods-LROCLabel.release.xcconfig"; sourceTree = "<group>"; };
+		5212B31B9FE9D75B61E74D5B /* Pods-LROCLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LROCLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LROCLabel/Pods-LROCLabel.debug.xcconfig"; sourceTree = "<group>"; };
+		783CF94306E0FEAE6D41A433 /* Pods-LROCLabelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LROCLabelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LROCLabelUITests/Pods-LROCLabelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AAF45DF321D0D12D00E43D83 /* LROCLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LROCLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF45DF621D0D12D00E43D83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAF45DF721D0D12D00E43D83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,16 @@
 		AAF45E1621D0D12D00E43D83 /* LROCLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LROCLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF45E1A21D0D12D00E43D83 /* LROCLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LROCLabelUITests.m; sourceTree = "<group>"; };
 		AAF45E1C21D0D12D00E43D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF45E2921D0D22600E43D83 /* LRTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRTableViewCell.h; sourceTree = "<group>"; };
+		AAF45E2A21D0D22600E43D83 /* LRTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRTableViewCell.m; sourceTree = "<group>"; };
+		AAF45E2D21D0F17200E43D83 /* LRTableModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRTableModel.h; sourceTree = "<group>"; };
+		AAF45E2E21D0F17200E43D83 /* LRTableModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRTableModel.m; sourceTree = "<group>"; };
+		AAF45E3021D0F5CB00E43D83 /* LRTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRTableViewController.h; sourceTree = "<group>"; };
+		AAF45E3121D0F5CB00E43D83 /* LRTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRTableViewController.m; sourceTree = "<group>"; };
+		B7670BD31578ECEA3230AECB /* Pods-LROCLabelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LROCLabelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LROCLabelUITests/Pods-LROCLabelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0E05AF723763574F1287573 /* Pods-LROCLabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LROCLabelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LROCLabelTests/Pods-LROCLabelTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1401FE67F99EEA36E7904C0 /* libPods-LROCLabelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LROCLabelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E3F70AB0CFBC8DB0595F13 /* libPods-LROCLabelUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LROCLabelUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998C5C9EAA108B4D85030F87 /* libPods-LROCLabel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C205B91D0A2CB2C6E249FA /* libPods-LROCLabelTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +95,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03A21AC9E5C4DB5FD6B3FBF /* libPods-LROCLabelUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A9E93FA2E857BA7E48C41B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DAFF4B3BCDF9A052C401917 /* libPods-LROCLabel.a */,
+				D1401FE67F99EEA36E7904C0 /* libPods-LROCLabelTests.a */,
+				E3E3F70AB0CFBC8DB0595F13 /* libPods-LROCLabelUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A002ECA16C5AC87BDC5BF702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5212B31B9FE9D75B61E74D5B /* Pods-LROCLabel.debug.xcconfig */,
+				431EA79C4F507401628F4FE9 /* Pods-LROCLabel.release.xcconfig */,
+				41B88A357B18DFBB6398CE67 /* Pods-LROCLabelTests.debug.xcconfig */,
+				C0E05AF723763574F1287573 /* Pods-LROCLabelTests.release.xcconfig */,
+				783CF94306E0FEAE6D41A433 /* Pods-LROCLabelUITests.debug.xcconfig */,
+				B7670BD31578ECEA3230AECB /* Pods-LROCLabelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AAF45DEA21D0D12C00E43D83 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +132,8 @@
 				AAF45E0E21D0D12D00E43D83 /* LROCLabelTests */,
 				AAF45E1921D0D12D00E43D83 /* LROCLabelUITests */,
 				AAF45DF421D0D12D00E43D83 /* Products */,
+				A002ECA16C5AC87BDC5BF702 /* Pods */,
+				6A9E93FA2E857BA7E48C41B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +154,13 @@
 				AAF45DF721D0D12D00E43D83 /* AppDelegate.m */,
 				AAF45DF921D0D12D00E43D83 /* ViewController.h */,
 				AAF45DFA21D0D12D00E43D83 /* ViewController.m */,
-				AAF45DFC21D0D12D00E43D83 /* Main.storyboard */,
-				AAF45DFF21D0D12D00E43D83 /* Assets.xcassets */,
-				AAF45E0121D0D12D00E43D83 /* LaunchScreen.storyboard */,
+				AAF45E3021D0F5CB00E43D83 /* LRTableViewController.h */,
+				AAF45E3121D0F5CB00E43D83 /* LRTableViewController.m */,
+				AAF45E2C21D0F15D00E43D83 /* Model */,
+				AAF45E2921D0D22600E43D83 /* LRTableViewCell.h */,
+				AAF45E2A21D0D22600E43D83 /* LRTableViewCell.m */,
+				AAF45E2821D0D17D00E43D83 /* LRSystemFiles */,
 				AAF45E0421D0D12D00E43D83 /* Info.plist */,
-				AAF45E0521D0D12D00E43D83 /* main.m */,
 			);
 			path = LROCLabel;
 			sourceTree = "<group>";
@@ -132,6 +183,26 @@
 			path = LROCLabelUITests;
 			sourceTree = "<group>";
 		};
+		AAF45E2821D0D17D00E43D83 /* LRSystemFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AAF45DFC21D0D12D00E43D83 /* Main.storyboard */,
+				AAF45DFF21D0D12D00E43D83 /* Assets.xcassets */,
+				AAF45E0121D0D12D00E43D83 /* LaunchScreen.storyboard */,
+				AAF45E0521D0D12D00E43D83 /* main.m */,
+			);
+			path = LRSystemFiles;
+			sourceTree = "<group>";
+		};
+		AAF45E2C21D0F15D00E43D83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAF45E2D21D0F17200E43D83 /* LRTableModel.h */,
+				AAF45E2E21D0F17200E43D83 /* LRTableModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAF45E1F21D0D12D00E43D83 /* Build configuration list for PBXNativeTarget "LROCLabel" */;
 			buildPhases = (
+				5901272540310FAFD4DD88FE /* [CP] Check Pods Manifest.lock */,
 				AAF45DEF21D0D12D00E43D83 /* Sources */,
 				AAF45DF021D0D12D00E43D83 /* Frameworks */,
 				AAF45DF121D0D12D00E43D83 /* Resources */,
@@ -156,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAF45E2221D0D12D00E43D83 /* Build configuration list for PBXNativeTarget "LROCLabelTests" */;
 			buildPhases = (
+				5D904A936327064832474A84 /* [CP] Check Pods Manifest.lock */,
 				AAF45E0721D0D12D00E43D83 /* Sources */,
 				AAF45E0821D0D12D00E43D83 /* Frameworks */,
 				AAF45E0921D0D12D00E43D83 /* Resources */,
@@ -174,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAF45E2521D0D12D00E43D83 /* Build configuration list for PBXNativeTarget "LROCLabelUITests" */;
 			buildPhases = (
+				3BF5BAF099CE705E0E7DA97C /* [CP] Check Pods Manifest.lock */,
 				AAF45E1221D0D12D00E43D83 /* Sources */,
 				AAF45E1321D0D12D00E43D83 /* Frameworks */,
 				AAF45E1421D0D12D00E43D83 /* Resources */,
@@ -199,7 +273,7 @@
 				TargetAttributes = {
 					AAF45DF221D0D12D00E43D83 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					AAF45E0A21D0D12D00E43D83 = {
 						CreatedOnToolsVersion = 9.2;
@@ -260,12 +334,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BF5BAF099CE705E0E7DA97C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LROCLabelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5901272540310FAFD4DD88FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LROCLabel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D904A936327064832474A84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LROCLabelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AAF45DEF21D0D12D00E43D83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AAF45DFB21D0D12D00E43D83 /* ViewController.m in Sources */,
+				AAF45E2F21D0F17200E43D83 /* LRTableModel.m in Sources */,
+				AAF45E2B21D0D22600E43D83 /* LRTableViewCell.m in Sources */,
+				AAF45E3221D0F5CB00E43D83 /* LRTableViewController.m in Sources */,
 				AAF45E0621D0D12D00E43D83 /* main.m in Sources */,
 				AAF45DF821D0D12D00E43D83 /* AppDelegate.m in Sources */,
 			);
@@ -428,34 +562,39 @@
 		};
 		AAF45E2021D0D12D00E43D83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5212B31B9FE9D75B61E74D5B /* Pods-LROCLabel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 962P348243;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LROCLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LROCLabel.LROCLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		AAF45E2121D0D12D00E43D83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431EA79C4F507401628F4FE9 /* Pods-LROCLabel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 962P348243;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LROCLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LROCLabel.LROCLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		AAF45E2321D0D12D00E43D83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B88A357B18DFBB6398CE67 /* Pods-LROCLabelTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +610,7 @@
 		};
 		AAF45E2421D0D12D00E43D83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E05AF723763574F1287573 /* Pods-LROCLabelTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +626,7 @@
 		};
 		AAF45E2621D0D12D00E43D83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 783CF94306E0FEAE6D41A433 /* Pods-LROCLabelUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 962P348243;
@@ -500,6 +641,7 @@
 		};
 		AAF45E2721D0D12D00E43D83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7670BD31578ECEA3230AECB /* Pods-LROCLabelUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 962P348243;
